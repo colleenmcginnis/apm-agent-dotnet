@@ -22,7 +22,7 @@ set DOTNET_STARTUP_HOOKS=[pathToAgent]\ElasticApmAgentStartupHook.dll
 
 With the environment variable set, the agent will initialize itself during startup when the application is started with `dotnet`.
 
-Agent configuration such as log level can be changed via environment variables as described in the [agent documentation](https://www.elastic.co/guide/en/apm/agent/dotnet/current/config-all-options-summary.html).
+Agent configuration such as log level can be changed via environment variables as described in the [agent documentation](https://www.elastic.co/docs/reference/apm/agents/dotnet/config-all-options-summary).
 
 ### Building the zip file
 
